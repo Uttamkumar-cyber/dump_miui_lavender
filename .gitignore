@@ -1,0 +1,12 @@
+system/app/MiuiBiometric/lib/arm64
+system/priv-app/MiuiVideo/MiuiVideo.apk
+system/priv-app/Browser/Browser.apk
+system/product/app/WebViewGoogle/WebViewGoogle.apk
+system/data-app/com.eg.android.AlipayGphone_23/com.eg.android.AlipayGphone_23.apk
+system/lib64/libFaceDetectCA.so
+system/lib64/libgnustl_shared.so
+system/lib64/libmegface_meglive.so
+system/lib64/libMegviiUnlock-jni-1.2.so
+system/lib64/libMegviiUnlock.so
+system/lib64/libqspower-1.0.0.so
+system/vendor/data-app/SmartHome/SmartHome.apk
