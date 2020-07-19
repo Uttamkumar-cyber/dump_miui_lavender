@@ -46,4 +46,7 @@
         file="/system/framework/camerax-vendor-extensions.jar" />
 
     <allow-in-power-save package="com.facebook.services"/>
+    <allow-in-power-save package="de.telekom.tsc"/>
+
+    <allow-in-power-save-except-idle package="de.telekom.tsc"/>
 </permissions>

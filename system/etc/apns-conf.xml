@@ -4420,11 +4420,13 @@
         roaming_protocol="IP"
     />
 
-    <apn carrier="SWAN Internet"
+    <apn carrier="4ka Internet"
         mcc="231"
         mnc="03"
         apn="internet"
         type="default"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
     />
   <apn carrier="Telekom Internet"
       mcc="231"
@@ -32097,13 +32099,11 @@
         roaming_protocol="IP"
     />
 
-    <apn carrier="Weyak Wap"
+    <apn carrier="IMS"
         mcc="424"
         mnc="02"
-        apn="etisalat.ae"
-        port="8080"
-        proxy="10.12.0.32"
-        type="default,supl"
+        apn="ims"
+        type="ims"
         protocol="IPV4V6"
         roaming_protocol="IP"
     />
