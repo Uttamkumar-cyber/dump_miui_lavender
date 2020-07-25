@@ -344,6 +344,7 @@ applications that come with the miui
     </privapp-permissions>
 
     <privapp-permissions package="com.android.contacts">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
         <permission name="android.permission.BIND_DIRECTORY_SEARCH"/>
         <permission name="android.permission.CALL_PRIVILEGED"/>
@@ -703,7 +704,8 @@ applications that come with the miui
         <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.STOP_APP_SWITCHES"/>
-	<permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.miui.miservice">

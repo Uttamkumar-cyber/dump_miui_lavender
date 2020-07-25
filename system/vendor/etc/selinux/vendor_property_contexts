@@ -314,6 +314,10 @@ vendor.fps_hal.            u:object_r:vendor_fp_prop:s0
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ctl.vendor.cdsprpcd         u:object_r:vendor_cdsprpcd_prop:s0
+#line 1 "miui/system/sepolicy/qcom/common/property_contexts"
+persist.vendor.radio.5g_mode_pref       u:object_r:radio_prop:s0
+persist.vendor.radio.5g_mode_pref_0     u:object_r:radio_prop:s0
+persist.vendor.radio.5g_mode_pref_1     u:object_r:radio_prop:s0
 #line 1 "vendor/xiaomi/proprietary/mfidoca/1.0/default/sepolicy/property_contexts"
 persist.vendor.sys.pay.fido              u:object_r:vendor_tee_listener_prop:s0
 

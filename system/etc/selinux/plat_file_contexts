@@ -241,6 +241,7 @@
 /sys/kernel/debug/rtmm(/.*)?		u:object_r:debugfs_rtmm:s0
 /sys/kernel/debug/f2fs(/.*)?		u:object_r:debugfs_f2fs:s0
 /system/apex/apex\.test(/.*)?		u:object_r:system_file:s0
+/sys/kernel/mi_reclaim(/.*)?		u:object_r:sysfs_reclaim:s0
 /data/misc/audioserver(/.*)?		u:object_r:audioserver_data_file:s0
 /data/app-private/vmdl.*\.tmp(/.*)?		u:object_r:apk_private_tmp_file:s0
 /data/misc/profiles/cur(/.*)?		u:object_r:user_profile_data_file:s0
@@ -295,8 +296,8 @@
 /system/apex/com\.android\.runtime\.debug/etc/tz(/.*)?		u:object_r:system_zoneinfo_file:s0
 /system/apex/com\.android\.runtime\.release/etc/tz(/.*)?		u:object_r:system_zoneinfo_file:s0
 /system/apex/com\.android\.runtime\.debug/bin/linker(64)?		u:object_r:system_linker_exec:s0
-/system/apex/com\.android\.runtime\.debug/bin/dex2oat(d)?		u:object_r:dex2oat_exec:s0
 /system/apex/com\.android\.runtime\.debug/bin/profman(d)?		u:object_r:profman_exec:s0
+/system/apex/com\.android\.runtime\.debug/bin/dex2oat(d)?		u:object_r:dex2oat_exec:s0
 /system/apex/com\.android\.runtime\.release/bin/linker(64)?		u:object_r:system_linker_exec:s0
 /system/apex/com\.android\.runtime\.debug/bin/dexoptanalyzer(d)?		u:object_r:dexoptanalyzer_exec:s0
 /system/apex/com\.android\.runtime\.debug/bin/art_preinstall_hook(.*)?		u:object_r:art_apex_preinstall_exec:s0

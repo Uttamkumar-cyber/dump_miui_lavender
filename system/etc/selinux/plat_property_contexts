@@ -315,6 +315,9 @@ persist.sys.sport_collect          u:object_r:joyose_app_prop:s0
 
 # Allow settings to set the videocall beauty enable property
 persist.vendor.vcb.enable  u:object_r:exported_system_prop:s0
+
+# Cit ctl gpu turbo mode
+vendor.perf.gpu_maxfreq.enable u:object_r:system_prop:s0
 #line 1 "system/sepolicy/public/property_contexts"
 # vendor-init-readable
 persist.radio.airplane_mode_on u:object_r:exported2_radio_prop:s0 exact int

@@ -263,13 +263,13 @@
         roaming_protocol="IP"
     />
 
-    <apn carrier=""
+    <apn carrier="Emergency"
         mcc="440"
         mnc="51"
-        apn=""
+        apn="SOS"
         type="emergency"
         protocol="IPV4V6"
-        roaming_protocol="IP"
+        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="5G NET"
@@ -1511,7 +1511,7 @@
         mcc="450"
         mnc="05"
         apn=""
-        type="ia,emergency"
+        type="ia"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         user_visible="0"
