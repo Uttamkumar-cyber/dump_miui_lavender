@@ -50,6 +50,7 @@
     <spnOverride numeric="22601" spn="RO Vodafone RO"/>
     <spnOverride numeric="22603" spn="TELEKOM.RO"/>
     <spnOverride numeric="22605" spn="RO Digi.Mobil"/>
+    <spnOverride numeric="22606" spn="TELEKOM.RO"/>
     <spnOverride numeric="22610" spn="RO ORANGE"/>
     <spnOverride numeric="22615" spn="RO 2K Telecom"/>
     <spnOverride numeric="22801" spn="Swisscom"/>

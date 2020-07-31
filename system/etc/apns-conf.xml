@@ -890,25 +890,13 @@
         mnc="01"
         apn="orange"
         password="orange"
-        type="default,supl"
+        type="default,supl,mms"
         user="orange"
-        protocol="IP"
-        roaming_protocol="IP"
-    />
-
-    <apn carrier="Orange MMS"
-        mcc="208"
-        mnc="01"
-        apn="orange.acte"
+        proxy="192.168.10.200"
+        port="8080"
         mmsc="http://mms.orange.fr"
-        mmsport="8080"
-        mmsproxy="192.168.10.200"
-        password="orange"
-        type="mms"
-        user="orange"
         protocol="IP"
         roaming_protocol="IP"
-        read_only="true"
     />
 
     <apn carrier="Orange Internet"
@@ -2811,6 +2799,7 @@
         protocol="IP"
         roaming_protocol="IP"
         read_only="true"
+        network_type_bitmask ="18"
     />
 
     <apn carrier="IMS"
@@ -4357,6 +4346,7 @@
         authtype="1"
         protocol="IP"
         roaming_protocol="IP"
+        read_only="true"
     />
 
     <apn carrier="IMS"
@@ -34829,6 +34819,15 @@
         port="8080"
         proxy="10.18.2.183"
         type="default,supl"
+    />
+
+    <apn carrier="internet"
+        mcc="452"
+        mnc="09"
+        apn="m9-reddi"
+        type="default,supl"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
     />
 
     <apn carrier="1O1O"

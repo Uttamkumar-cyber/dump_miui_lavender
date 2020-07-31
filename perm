@@ -56852,6 +56852,27 @@ user::rw-
 group::r--
 other::r--
 
+# file: system/vendor/app/Joyose
+# owner: root
+# group: travis
+user::rwx
+group::r-x
+other::r-x
+
+# file: system/vendor/app/Joyose/lib
+# owner: root
+# group: travis
+user::rwx
+group::r-x
+other::r-x
+
+# file: system/vendor/app/Joyose/lib/arm64
+# owner: root
+# group: travis
+user::rwx
+group::r-x
+other::r-x
+
 # file: system/vendor/app/FingerprintExtensionService
 # owner: root
 # group: travis
@@ -59869,28 +59890,21 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/Joyose/oat
+# file: system/app/Joyose/lib
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/Joyose/oat/arm64
+# file: system/app/Joyose/lib/arm64
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/Joyose/oat/arm64/Joyose.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Joyose/oat/arm64/Joyose.vdex
+# file: system/app/Joyose/lib/arm64/libprofilemanager-jni.so.so
 # owner: root
 # group: root
 user::rw-
