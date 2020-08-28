@@ -5514,6 +5514,13 @@ user::rw-
 group::r--
 other::r--
 
+# file: system/lib/libqti_workloadclassifiermodel.so
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
 # file: system/lib/libprotobuf-cpp-full.so
 # owner: root
 # group: root
@@ -15027,34 +15034,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/Backup/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Backup/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Backup/oat/arm64/Backup.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Backup/oat/arm64/Backup.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/Backup/Backup.apk
 # owner: root
 # group: root
@@ -15068,34 +15047,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/ManagedProvisioning/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ManagedProvisioning/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ManagedProvisioning/oat/arm64/ManagedProvisioning.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/ManagedProvisioning/oat/arm64/ManagedProvisioning.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/ManagedProvisioning/ManagedProvisioning.apk
 # owner: root
@@ -15209,34 +15160,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/YellowPage/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/YellowPage/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/YellowPage/oat/arm/YellowPage.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/YellowPage/oat/arm/YellowPage.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/YellowPage/YellowPage.apk
 # owner: root
 # group: root
@@ -15250,34 +15173,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/MiShare/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiShare/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiShare/oat/arm64/MiShare.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiShare/oat/arm64/MiShare.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/MiShare/MiShare.apk
 # owner: root
@@ -15307,34 +15202,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/MiuiFreeformService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiFreeformService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiFreeformService/oat/arm64/MiuiFreeformService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiuiFreeformService/oat/arm64/MiuiFreeformService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MiuiFreeformService/MiuiFreeformService.apk
 # owner: root
 # group: root
@@ -15363,34 +15230,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/MiuiHome/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiHome/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiHome/oat/arm64/MiuiHome.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiuiHome/oat/arm64/MiuiHome.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MiuiHome/MiuiHome.apk
 # owner: root
 # group: root
@@ -15412,68 +15251,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/priv-app/DMRegService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DMRegService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DMRegService/oat/arm64/DMRegService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/DMRegService/oat/arm64/DMRegService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/CloudServiceSysbase
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/CloudServiceSysbase/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CloudServiceSysbase/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CloudServiceSysbase/oat/arm64/CloudServiceSysbase.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/CloudServiceSysbase/oat/arm64/CloudServiceSysbase.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/CloudServiceSysbase/CloudServiceSysbase.apk
 # owner: root
@@ -15503,34 +15286,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/ExternalStorageProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ExternalStorageProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ExternalStorageProvider/oat/arm64/ExternalStorageProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/ExternalStorageProvider/oat/arm64/ExternalStorageProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/ExternalStorageProvider/ExternalStorageProvider.apk
 # owner: root
 # group: root
@@ -15545,34 +15300,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/CallLogBackup/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CallLogBackup/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CallLogBackup/oat/arm64/CallLogBackup.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/CallLogBackup/oat/arm64/CallLogBackup.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/CallLogBackup/CallLogBackup.apk
 # owner: root
 # group: root
@@ -15586,34 +15313,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/SecurityCenter/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SecurityCenter/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SecurityCenter/oat/arm64/SecurityCenter.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/SecurityCenter/oat/arm64/SecurityCenter.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/SecurityCenter/SecurityCenter.apk
 # owner: root
@@ -15636,68 +15335,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/priv-app/SoundRecorder/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SoundRecorder/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SoundRecorder/oat/arm/SoundRecorder.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/SoundRecorder/oat/arm/SoundRecorder.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/FindDevice
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/FindDevice/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/FindDevice/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/FindDevice/oat/arm64/FindDevice.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/FindDevice/oat/arm64/FindDevice.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/FindDevice/FindDevice.apk
 # owner: root
@@ -15713,34 +15356,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/Provision/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Provision/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Provision/oat/arm64/Provision.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Provision/oat/arm64/Provision.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/Provision/Provision.apk
 # owner: root
 # group: root
@@ -15754,34 +15369,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/ContactsProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ContactsProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ContactsProvider/oat/arm64/ContactsProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/ContactsProvider/oat/arm64/ContactsProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/ContactsProvider/ContactsProvider.apk
 # owner: root
@@ -15797,34 +15384,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/MiuiGallery/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiGallery/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiGallery/oat/arm64/MiuiGallery.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiuiGallery/oat/arm64/MiuiGallery.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MiuiGallery/MiuiGallery.apk
 # owner: root
 # group: root
@@ -15838,34 +15397,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/MiuiSystemUI/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiSystemUI/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiSystemUI/oat/arm64/MiuiSystemUI.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiuiSystemUI/oat/arm64/MiuiSystemUI.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/MiuiSystemUI/MiuiSystemUI.apk
 # owner: root
@@ -15881,34 +15412,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/PackageInstaller/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/PackageInstaller/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/PackageInstaller/oat/arm64/PackageInstaller.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/PackageInstaller/oat/arm64/PackageInstaller.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/PackageInstaller/PackageInstaller.apk
 # owner: root
 # group: root
@@ -15922,34 +15425,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/com.qualcomm.location/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/com.qualcomm.location/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/com.qualcomm.location/oat/arm64/com.qualcomm.location.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/com.qualcomm.location/oat/arm64/com.qualcomm.location.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/com.qualcomm.location/com.qualcomm.location.apk
 # owner: root
@@ -15965,34 +15440,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/LocalTransport/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/LocalTransport/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/LocalTransport/oat/arm64/LocalTransport.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/LocalTransport/oat/arm64/LocalTransport.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/LocalTransport/LocalTransport.apk
 # owner: root
 # group: root
@@ -16006,34 +15453,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/Contacts/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Contacts/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Contacts/oat/arm64/Contacts.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Contacts/oat/arm64/Contacts.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/Contacts/Contacts.apk
 # owner: root
@@ -16049,34 +15468,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/MiSettings/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiSettings/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiSettings/oat/arm64/MiSettings.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiSettings/oat/arm64/MiSettings.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MiSettings/MiSettings.apk
 # owner: root
 # group: root
@@ -16090,34 +15481,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/BackupRestoreConfirmation/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/BackupRestoreConfirmation/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/BackupRestoreConfirmation/oat/arm64/BackupRestoreConfirmation.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/BackupRestoreConfirmation/oat/arm64/BackupRestoreConfirmation.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation.apk
 # owner: root
@@ -16133,34 +15496,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/CalendarProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CalendarProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CalendarProvider/oat/arm64/CalendarProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/CalendarProvider/oat/arm64/CalendarProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/CalendarProvider/CalendarProvider.apk
 # owner: root
 # group: root
@@ -16174,34 +15509,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/SharedStorageBackup/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SharedStorageBackup/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SharedStorageBackup/oat/arm64/SharedStorageBackup.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/SharedStorageBackup/oat/arm64/SharedStorageBackup.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/SharedStorageBackup/SharedStorageBackup.apk
 # owner: root
@@ -16217,34 +15524,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/UserDictionaryProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/UserDictionaryProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/UserDictionaryProvider/oat/arm64/UserDictionaryProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/UserDictionaryProvider/oat/arm64/UserDictionaryProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/UserDictionaryProvider/UserDictionaryProvider.apk
 # owner: root
 # group: root
@@ -16258,34 +15537,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/FusedLocation/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/FusedLocation/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/FusedLocation/oat/arm64/FusedLocation.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/FusedLocation/oat/arm64/FusedLocation.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/FusedLocation/FusedLocation.apk
 # owner: root
@@ -16302,34 +15553,6 @@ group::r-x
 other::r-x
 
 # file: system/priv-app/AuthManager/AuthManager.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/AuthManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/AuthManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/AuthManager/oat/arm64/AuthManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/AuthManager/oat/arm64/AuthManager.vdex
 # owner: root
 # group: root
 user::rw-
@@ -16356,34 +15579,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/InCallUI/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/InCallUI/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/InCallUI/oat/arm64/InCallUI.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/InCallUI/oat/arm64/InCallUI.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/InCallUI/InCallUI.apk
 # owner: root
@@ -16413,34 +15608,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/InProcessNetworkStack/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/InProcessNetworkStack/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/InProcessNetworkStack/oat/arm64/InProcessNetworkStack.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/InProcessNetworkStack/oat/arm64/InProcessNetworkStack.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/InProcessNetworkStack/InProcessNetworkStack.apk
 # owner: root
 # group: root
@@ -16454,34 +15621,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/GoogleDocumentsUIPrebuilt/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/GoogleDocumentsUIPrebuilt/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/GoogleDocumentsUIPrebuilt/oat/arm64/GoogleDocumentsUIPrebuilt.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/GoogleDocumentsUIPrebuilt/oat/arm64/GoogleDocumentsUIPrebuilt.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/GoogleDocumentsUIPrebuilt/GoogleDocumentsUIPrebuilt.apk
 # owner: root
@@ -16497,34 +15636,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/DiracAudioControlService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DiracAudioControlService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DiracAudioControlService/oat/arm64/DiracAudioControlService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/DiracAudioControlService/oat/arm64/DiracAudioControlService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/DiracAudioControlService/DiracAudioControlService.apk
 # owner: root
 # group: root
@@ -16539,34 +15650,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/SettingsProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SettingsProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/SettingsProvider/oat/arm64/SettingsProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/SettingsProvider/oat/arm64/SettingsProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/SettingsProvider/SettingsProvider.apk
 # owner: root
 # group: root
@@ -16580,34 +15663,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/ONS/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ONS/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ONS/oat/arm64/ONS.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/ONS/oat/arm64/ONS.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/ONS/ONS.apk
 # owner: root
@@ -16630,68 +15685,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/priv-app/DynamicSystemInstallationService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DynamicSystemInstallationService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DynamicSystemInstallationService/oat/arm64/DynamicSystemInstallationService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/DynamicSystemInstallationService/oat/arm64/DynamicSystemInstallationService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/Calendar
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/Calendar/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Calendar/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Calendar/oat/arm64/Calendar.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Calendar/oat/arm64/Calendar.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/Calendar/Calendar.apk
 # owner: root
@@ -16707,34 +15706,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/MmsService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MmsService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MmsService/oat/arm64/MmsService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MmsService/oat/arm64/MmsService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MmsService/MmsService.apk
 # owner: root
 # group: root
@@ -16748,34 +15719,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/MtpDocumentsProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MtpDocumentsProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MtpDocumentsProvider/oat/arm64/MtpDocumentsProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MtpDocumentsProvider/oat/arm64/MtpDocumentsProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/MtpDocumentsProvider/MtpDocumentsProvider.apk
 # owner: root
@@ -16798,68 +15741,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/priv-app/InputDevices/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/InputDevices/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/InputDevices/oat/arm64/InputDevices.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/InputDevices/oat/arm64/InputDevices.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/PermissionController
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/PermissionController/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/PermissionController/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/PermissionController/oat/arm64/PermissionController.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/PermissionController/oat/arm64/PermissionController.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/PermissionController/PermissionController.apk
 # owner: root
@@ -16874,34 +15761,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/TelephonyProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/TelephonyProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/TelephonyProvider/oat/arm64/TelephonyProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/TelephonyProvider/oat/arm64/TelephonyProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/TelephonyProvider/TelephonyProvider.apk
 # owner: root
@@ -16931,34 +15790,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/PlatformNetworkPermissionConfig/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/PlatformNetworkPermissionConfig/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/PlatformNetworkPermissionConfig/oat/arm64/PlatformNetworkPermissionConfig.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/PlatformNetworkPermissionConfig/oat/arm64/PlatformNetworkPermissionConfig.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/PlatformNetworkPermissionConfig/PlatformNetworkPermissionConfig.apk
 # owner: root
 # group: root
@@ -16972,34 +15803,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/WfdService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/WfdService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/WfdService/oat/arm64/WfdService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/WfdService/oat/arm64/WfdService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/WfdService/WfdService.apk
 # owner: root
@@ -17015,34 +15818,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/Shell/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Shell/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Shell/oat/arm64/Shell.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Shell/oat/arm64/Shell.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/Shell/Shell.apk
 # owner: root
 # group: root
@@ -17056,34 +15831,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/DownloadProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DownloadProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DownloadProvider/oat/arm64/DownloadProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/DownloadProvider/oat/arm64/DownloadProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/DownloadProvider/DownloadProvider.apk
 # owner: root
@@ -17099,55 +15846,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/RtMiCloudSDK/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/RtMiCloudSDK/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/RtMiCloudSDK/oat/arm64/RtMiCloudSDK.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/RtMiCloudSDK/oat/arm64/RtMiCloudSDK.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/RtMiCloudSDK/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/RtMiCloudSDK/oat/arm/RtMiCloudSDK.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/RtMiCloudSDK/oat/arm/RtMiCloudSDK.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk
 # owner: root
 # group: root
@@ -17161,34 +15859,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/BlockedNumberProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/BlockedNumberProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/BlockedNumberProvider/oat/arm64/BlockedNumberProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/BlockedNumberProvider/oat/arm64/BlockedNumberProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/BlockedNumberProvider/BlockedNumberProvider.apk
 # owner: root
@@ -17204,34 +15874,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/MiuiPackageInstaller/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiPackageInstaller/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiPackageInstaller/oat/arm64/MiuiPackageInstaller.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiuiPackageInstaller/oat/arm64/MiuiPackageInstaller.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MiuiPackageInstaller/MiuiPackageInstaller.apk
 # owner: root
 # group: root
@@ -17245,34 +15887,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/MediaProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MediaProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MediaProvider/oat/arm64/MediaProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MediaProvider/oat/arm64/MediaProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/MediaProvider/MediaProvider.apk
 # owner: root
@@ -17365,34 +15979,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/StatementService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/StatementService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/StatementService/oat/arm64/StatementService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/StatementService/oat/arm64/StatementService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/StatementService/StatementService.apk
 # owner: root
 # group: root
@@ -17421,34 +16007,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/ExtServices/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ExtServices/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ExtServices/oat/arm64/ExtServices.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/ExtServices/oat/arm64/ExtServices.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/ExtServices/ExtServices.apk
 # owner: root
 # group: root
@@ -17462,34 +16020,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/TeleService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/TeleService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/TeleService/oat/arm64/TeleService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/TeleService/oat/arm64/TeleService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/TeleService/TeleService.apk
 # owner: root
@@ -17505,34 +16035,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/Telecom/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Telecom/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Telecom/oat/arm64/Telecom.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Telecom/oat/arm64/Telecom.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/Telecom/Telecom.apk
 # owner: root
 # group: root
@@ -17546,34 +16048,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/Mms/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Mms/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/Mms/oat/arm64/Mms.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/Mms/oat/arm64/Mms.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/Mms/Mms.apk
 # owner: root
@@ -17596,68 +16070,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/priv-app/MusicFX/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MusicFX/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MusicFX/oat/arm64/MusicFX.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MusicFX/oat/arm64/MusicFX.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/MiuiVideo
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/MiuiVideo/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiVideo/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/MiuiVideo/oat/arm/MiuiVideo.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/MiuiVideo/oat/arm/MiuiVideo.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/MiuiVideo/MiuiVideo.apk
 # owner: root
@@ -17680,68 +16098,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/priv-app/DownloadProviderUi/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DownloadProviderUi/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/DownloadProviderUi/oat/arm64/DownloadProviderUi.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/DownloadProviderUi/oat/arm64/DownloadProviderUi.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/ProxyHandler
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/ProxyHandler/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ProxyHandler/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/ProxyHandler/oat/arm64/ProxyHandler.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/ProxyHandler/oat/arm64/ProxyHandler.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/ProxyHandler/ProxyHandler.apk
 # owner: root
@@ -17756,34 +16118,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/QuickSearchBox/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/QuickSearchBox/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/QuickSearchBox/oat/arm/QuickSearchBox.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/QuickSearchBox/oat/arm/QuickSearchBox.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/QuickSearchBox/QuickSearchBox.apk
 # owner: root
@@ -17848,34 +16182,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/priv-app/CloudBackup/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CloudBackup/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/CloudBackup/oat/arm64/CloudBackup.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/CloudBackup/oat/arm64/CloudBackup.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/priv-app/CloudBackup/CloudBackup.apk
 # owner: root
 # group: root
@@ -17889,34 +16195,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/priv-app/VpnDialogs/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/VpnDialogs/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/priv-app/VpnDialogs/oat/arm64/VpnDialogs.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/priv-app/VpnDialogs/oat/arm64/VpnDialogs.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/priv-app/VpnDialogs/VpnDialogs.apk
 # owner: root
@@ -26241,34 +24519,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/priv-app/WallpaperCropper/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/WallpaperCropper/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/WallpaperCropper/oat/arm64/WallpaperCropper.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/WallpaperCropper/oat/arm64/WallpaperCropper.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/priv-app/WallpaperCropper/WallpaperCropper.apk
 # owner: root
 # group: root
@@ -26282,34 +24532,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/priv-app/seccamservice/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/seccamservice/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/seccamservice/oat/arm64/seccamservice.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/seccamservice/oat/arm64/seccamservice.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/priv-app/seccamservice/seccamservice.apk
 # owner: root
@@ -26339,34 +24561,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/priv-app/ims/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/ims/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/ims/oat/arm64/ims.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/ims/oat/arm64/ims.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/priv-app/ims/ims.apk
 # owner: root
 # group: root
@@ -26380,34 +24574,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/priv-app/OneTimeInitializer/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/OneTimeInitializer/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/OneTimeInitializer/oat/arm64/OneTimeInitializer.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/OneTimeInitializer/oat/arm64/OneTimeInitializer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/priv-app/OneTimeInitializer/OneTimeInitializer.apk
 # owner: root
@@ -26423,34 +24589,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/priv-app/Settings/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/Settings/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/Settings/oat/arm64/Settings.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/Settings/oat/arm64/Settings.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/priv-app/Settings/Settings.apk
 # owner: root
 # group: root
@@ -26464,34 +24602,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/priv-app/qcrilmsgtunnel/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/qcrilmsgtunnel/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/qcrilmsgtunnel/oat/arm64/qcrilmsgtunnel.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/qcrilmsgtunnel/oat/arm64/qcrilmsgtunnel.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 # owner: root
@@ -26507,34 +24617,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/priv-app/CarrierConfig/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/CarrierConfig/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/CarrierConfig/oat/arm64/CarrierConfig.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/CarrierConfig/oat/arm64/CarrierConfig.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/priv-app/CarrierConfig/CarrierConfig.apk
 # owner: root
 # group: root
@@ -26548,34 +24630,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/priv-app/dpmserviceapp/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/dpmserviceapp/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/dpmserviceapp/oat/arm64/dpmserviceapp.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/dpmserviceapp/oat/arm64/dpmserviceapp.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/priv-app/dpmserviceapp/dpmserviceapp.apk
 # owner: root
@@ -26591,34 +24645,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/priv-app/StorageManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/StorageManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/StorageManager/oat/arm64/StorageManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/StorageManager/oat/arm64/StorageManager.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/priv-app/StorageManager/StorageManager.apk
 # owner: root
 # group: root
@@ -26633,34 +24659,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/priv-app/SettingsIntelligence/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/SettingsIntelligence/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/SettingsIntelligence/oat/arm64/SettingsIntelligence.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/SettingsIntelligence/oat/arm64/SettingsIntelligence.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/priv-app/SettingsIntelligence/SettingsIntelligence.apk
 # owner: root
 # group: root
@@ -26674,34 +24672,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/priv-app/EmergencyInfo/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/EmergencyInfo/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/priv-app/EmergencyInfo/oat/arm64/EmergencyInfo.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/priv-app/EmergencyInfo/oat/arm64/EmergencyInfo.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/priv-app/EmergencyInfo/EmergencyInfo.apk
 # owner: root
@@ -28775,49 +26745,7 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/xdivert/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/xdivert/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/xdivert/oat/arm64/xdivert.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/xdivert/oat/arm64/xdivert.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/xdivert/xdivert.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/NetworkStackOverlay
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/NetworkStackOverlay/NetworkStackOverlay.apk
 # owner: root
 # group: root
 user::rw-
@@ -28830,34 +26758,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/app/uceShimService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/uceShimService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/uceShimService/oat/arm64/uceShimService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/uceShimService/oat/arm64/uceShimService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/app/uceShimService/uceShimService.apk
 # owner: root
@@ -28887,34 +26787,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/PhotoTable/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/PhotoTable/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/PhotoTable/oat/arm64/PhotoTable.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/PhotoTable/oat/arm64/PhotoTable.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/PhotoTable/PhotoTable.apk
 # owner: root
 # group: root
@@ -28928,34 +26800,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/app/QtiTelephonyService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/QtiTelephonyService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/QtiTelephonyService/oat/arm64/QtiTelephonyService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/QtiTelephonyService/oat/arm64/QtiTelephonyService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/app/QtiTelephonyService/QtiTelephonyService.apk
 # owner: root
@@ -28971,34 +26815,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/QtiSystemService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/QtiSystemService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/QtiSystemService/oat/arm64/QtiSystemService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/QtiSystemService/oat/arm64/QtiSystemService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/QtiSystemService/QtiSystemService.apk
 # owner: root
 # group: root
@@ -29012,34 +26828,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/app/com.qualcomm.qti.services.secureui/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/com.qualcomm.qti.services.secureui/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/com.qualcomm.qti.services.secureui/oat/arm64/com.qualcomm.qti.services.secureui.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/com.qualcomm.qti.services.secureui/oat/arm64/com.qualcomm.qti.services.secureui.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
 # owner: root
@@ -29055,34 +26843,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/uimremoteclient/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/uimremoteclient/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/uimremoteclient/oat/arm64/uimremoteclient.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/uimremoteclient/oat/arm64/uimremoteclient.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/uimremoteclient/uimremoteclient.apk
 # owner: root
 # group: root
@@ -29096,34 +26856,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/app/ConfURIDialer/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/ConfURIDialer/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/ConfURIDialer/oat/arm64/ConfURIDialer.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/ConfURIDialer/oat/arm64/ConfURIDialer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/app/ConfURIDialer/ConfURIDialer.apk
 # owner: root
@@ -29153,34 +26885,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/datastatusnotification/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/datastatusnotification/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/datastatusnotification/oat/arm64/datastatusnotification.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/datastatusnotification/oat/arm64/datastatusnotification.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/datastatusnotification/datastatusnotification.apk
 # owner: root
 # group: root
@@ -29196,34 +26900,6 @@ group::r-x
 other::r-x
 
 # file: system/product/app/CallFeaturesSetting/CallFeaturesSetting.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/CallFeaturesSetting/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/CallFeaturesSetting/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/CallFeaturesSetting/oat/arm64/CallFeaturesSetting.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/CallFeaturesSetting/oat/arm64/CallFeaturesSetting.odex
 # owner: root
 # group: root
 user::rw-
@@ -29258,34 +26934,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/product/app/uimremoteserver/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/uimremoteserver/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/uimremoteserver/oat/arm64/uimremoteserver.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/uimremoteserver/oat/arm64/uimremoteserver.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/colorservice
 # owner: root
 # group: root
@@ -29307,34 +26955,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/DeviceInfo/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/DeviceInfo/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/DeviceInfo/oat/arm64/DeviceInfo.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/DeviceInfo/oat/arm64/DeviceInfo.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/DeviceInfo/DeviceInfo.apk
 # owner: root
 # group: root
@@ -29348,34 +26968,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/app/ConferenceDialer/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/ConferenceDialer/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/ConferenceDialer/oat/arm64/ConferenceDialer.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/ConferenceDialer/oat/arm64/ConferenceDialer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/app/ConferenceDialer/ConferenceDialer.apk
 # owner: root
@@ -29391,34 +26983,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/product/app/imssettings/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/imssettings/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/imssettings/oat/arm64/imssettings.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/imssettings/oat/arm64/imssettings.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/product/app/imssettings/imssettings.apk
 # owner: root
 # group: root
@@ -29432,34 +26996,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/product/app/PowerOffAlarm/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/PowerOffAlarm/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/PowerOffAlarm/oat/arm64/PowerOffAlarm.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/PowerOffAlarm/oat/arm64/PowerOffAlarm.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/product/app/PowerOffAlarm/PowerOffAlarm.apk
 # owner: root
@@ -29504,34 +27040,6 @@ group::r-x
 other::r-x
 
 # file: system/product/app/atfwd/atfwd.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/atfwd/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/atfwd/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/app/atfwd/oat/arm64/atfwd.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/app/atfwd/oat/arm64/atfwd.odex
 # owner: root
 # group: root
 user::rw-
@@ -30064,979 +27572,6 @@ group::r--
 other::r--
 
 # file: system/product/framework/QtiTelephonyServicelibrary.jar
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/framework/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.sensorscalibrate-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.imscmservice-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.alarm-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.iwlan-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.voiceprint-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.factory-V1.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.imscmservice-V2.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.uceservice-V2.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.imscmservice-V2.2-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/QtiTelephonyServicelibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qti-telephony-hidl-wrapper.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qti-telephony-utils.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.sensorscalibrate-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.factory-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.latency-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qti-telephony-common.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimgbamanagerlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimgbalibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/remotesimlockmanagerlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qcrilhook.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.uceservice-V2.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimgbamanagerlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.ims.callinfo-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.factory-V1.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.ims.rcsconfig-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.latency-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.uceservice-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimlpalibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/QtiTelephonyServicelibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.connection-V1.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimremoteserverlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qcrilhook.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qti-telephony-hidl-wrapper.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.iwlan-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.imscmservice-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qti-telephony-common.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.alarm-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/ims-ext-common.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimgbalibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.ims.rcsconfig-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/remotesimlockmanagerlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.soter-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/qti-telephony-utils.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.ims.callinfo-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.latency-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimremoteserverlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.dynamicdds-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimremoteclientlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.wigig.netperftuner-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.wigig.supptunnel-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/ims-ext-common.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.voiceprint-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.wigig.netperftuner-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.factory-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.imscmservice-V2.2-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimlpalibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.wigig.supptunnel-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.data.dynamicdds-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.imscmservice-V2.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/com.qualcomm.qti.uceservice-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimremotesimlocklibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.hardware.soter-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/vendor.qti.latency-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimremotesimlocklibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm64/uimremoteclientlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.sensorscalibrate-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.imscmservice-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.alarm-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.iwlan-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.voiceprint-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.factory-V1.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.imscmservice-V2.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.uceservice-V2.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.imscmservice-V2.2-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/QtiTelephonyServicelibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qti-telephony-hidl-wrapper.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qti-telephony-utils.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.sensorscalibrate-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.factory-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.latency-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qti-telephony-common.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimgbamanagerlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimgbalibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/remotesimlockmanagerlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qcrilhook.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.uceservice-V2.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimgbamanagerlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.ims.callinfo-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.factory-V1.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.ims.rcsconfig-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.latency-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.uceservice-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimlpalibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/QtiTelephonyServicelibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.connection-V1.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimremoteserverlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qcrilhook.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qti-telephony-hidl-wrapper.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.iwlan-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.imscmservice-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qti-telephony-common.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.alarm-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/ims-ext-common.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimgbalibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.ims.rcsconfig-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/remotesimlockmanagerlibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.soter-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/qti-telephony-utils.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.ims.callinfo-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.latency-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimremoteserverlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.dynamicdds-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimremoteclientlibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.wigig.netperftuner-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.wigig.supptunnel-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/ims-ext-common.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.voiceprint-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.wigig.netperftuner-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.factory-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.imscmservice-V2.2-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimlpalibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.wigig.supptunnel-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.data.dynamicdds-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.imscmservice-V2.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/com.qualcomm.qti.uceservice-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimremotesimlocklibrary.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.hardware.soter-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/vendor.qti.latency-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimremotesimlocklibrary.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/product/framework/oat/arm/uimremoteclientlibrary.odex
 # owner: root
 # group: root
 user::rw-
@@ -56649,34 +53184,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/vendor/app/TimeService/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/TimeService/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/TimeService/oat/arm64/TimeService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/TimeService/oat/arm64/TimeService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/vendor/app/TimeService/TimeService.apk
 # owner: root
 # group: root
@@ -56719,34 +53226,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/vendor/app/QDMA-UI/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/QDMA-UI/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/QDMA-UI/oat/arm64/QDMA-UI.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/QDMA-UI/oat/arm64/QDMA-UI.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/vendor/app/QDMA-UI/QDMA-UI.apk
 # owner: root
 # group: root
@@ -56775,34 +53254,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/vendor/app/CACertService/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/CACertService/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/CACertService/oat/arm64/CACertService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/CACertService/oat/arm64/CACertService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/vendor/app/CACertService/CACertService.apk
 # owner: root
 # group: root
@@ -56816,34 +53267,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/vendor/app/QFingerprintService/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/QFingerprintService/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/QFingerprintService/oat/arm64/QFingerprintService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/QFingerprintService/oat/arm64/QFingerprintService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/vendor/app/QFingerprintService/QFingerprintService.apk
 # owner: root
@@ -56929,34 +53352,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/vendor/app/IWlanService/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/IWlanService/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/IWlanService/oat/arm64/IWlanService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/IWlanService/oat/arm64/IWlanService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/vendor/app/IWlanService/IWlanService.apk
 # owner: root
 # group: root
@@ -56978,68 +53373,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/vendor/app/CneApp/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/CneApp/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/CneApp/oat/arm64/CneApp.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/CneApp/oat/arm64/CneApp.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/vendor/app/SoterService
 # owner: root
 # group: travis
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/vendor/app/SoterService/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/SoterService/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/app/SoterService/oat/arm64/SoterService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/app/SoterService/oat/arm64/SoterService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/vendor/app/SoterService/SoterService.apk
 # owner: root
@@ -57145,34 +53484,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/vendor/overlay/DocumentsUIOverlay/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/overlay/DocumentsUIOverlay/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/overlay/DocumentsUIOverlay/oat/arm64/DocumentsUIOverlay.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/overlay/DocumentsUIOverlay/oat/arm64/DocumentsUIOverlay.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/vendor/overlay/DocumentsUIOverlay/DocumentsUIOverlay.apk
 # owner: root
@@ -57307,34 +53618,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/vendor/data-app/CloudSim/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/data-app/CloudSim/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/data-app/CloudSim/oat/arm64/CloudSim.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/data-app/CloudSim/oat/arm64/CloudSim.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/vendor/data-app/CloudSim/CloudSim.apk
 # owner: root
 # group: root
@@ -57348,34 +53631,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/vendor/data-app/wps-lite/oat
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/data-app/wps-lite/oat/arm64
-# owner: root
-# group: travis
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/vendor/data-app/wps-lite/oat/arm64/wps-lite.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/vendor/data-app/wps-lite/oat/arm64/wps-lite.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/vendor/data-app/wps-lite/wps-lite.apk
 # owner: root
@@ -57454,68 +53709,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/SogouInput/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SogouInput/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SogouInput/oat/arm64/SogouInput.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SogouInput/oat/arm64/SogouInput.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/FM_TEST
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/FM_TEST/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FM_TEST/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FM_TEST/oat/arm64/FM_TEST.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/FM_TEST/oat/arm64/FM_TEST.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/FM_TEST/FM_TEST.apk
 # owner: root
@@ -57552,68 +53751,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/MiuiBiometric/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiBiometric/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiBiometric/oat/arm64/MiuiBiometric.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiBiometric/oat/arm64/MiuiBiometric.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/XMCloudEngine
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/XMCloudEngine/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XMCloudEngine/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XMCloudEngine/oat/arm64/XMCloudEngine.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/XMCloudEngine/oat/arm64/XMCloudEngine.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/XMCloudEngine/XMCloudEngine.apk
 # owner: root
@@ -57636,68 +53779,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/XMSFKeeper/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XMSFKeeper/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XMSFKeeper/oat/arm64/XMSFKeeper.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/XMSFKeeper/oat/arm64/XMSFKeeper.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/DeskClock
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/DeskClock/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/DeskClock/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/DeskClock/oat/arm64/DeskClock.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/DeskClock/oat/arm64/DeskClock.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/DeskClock/DeskClock.apk
 # owner: root
@@ -57881,68 +53968,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/miui/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/miui/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/miui/oat/arm64/miui.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/miui/oat/arm64/miui.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/GFTest
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/GFTest/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GFTest/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GFTest/oat/arm64/GFTest.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/GFTest/oat/arm64/GFTest.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/GFTest/GFTest.apk
 # owner: root
@@ -57972,34 +54003,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/SensorTestTool/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SensorTestTool/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SensorTestTool/oat/arm64/SensorTestTool.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SensorTestTool/oat/arm64/SensorTestTool.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/SensorTestTool/SensorTestTool.apk
 # owner: root
 # group: root
@@ -58013,34 +54016,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/GFTest1/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GFTest1/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GFTest1/oat/arm64/GFTest1.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/GFTest1/oat/arm64/GFTest1.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/GFTest1/GFTest1.apk
 # owner: root
@@ -58063,34 +54038,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/BasicDreams/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BasicDreams/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BasicDreams/oat/arm64/BasicDreams.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/BasicDreams/oat/arm64/BasicDreams.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/CarrierDefaultApp
 # owner: root
 # group: root
@@ -58105,68 +54052,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/CarrierDefaultApp/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CarrierDefaultApp/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CarrierDefaultApp/oat/arm64/CarrierDefaultApp.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/CarrierDefaultApp/oat/arm64/CarrierDefaultApp.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/SecurityCoreAdd
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/SecurityCoreAdd/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SecurityCoreAdd/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SecurityCoreAdd/oat/arm64/SecurityCoreAdd.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SecurityCoreAdd/oat/arm64/SecurityCoreAdd.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/SecurityCoreAdd/SecurityCoreAdd.apk
 # owner: root
@@ -58210,34 +54101,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/Qmmi/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Qmmi/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Qmmi/oat/arm64/Qmmi.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Qmmi/oat/arm64/Qmmi.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/Qmmi/Qmmi.apk
 # owner: root
 # group: root
@@ -58252,34 +54115,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/MiRadio/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiRadio/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiRadio/oat/arm64/MiRadio.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiRadio/oat/arm64/MiRadio.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/MiRadio/MiRadio.apk
 # owner: root
 # group: root
@@ -58293,34 +54128,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/ExtShared/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ExtShared/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ExtShared/oat/arm64/ExtShared.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/ExtShared/oat/arm64/ExtShared.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/ExtShared/ExtShared.apk
 # owner: root
@@ -58378,34 +54185,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/SmsExtra/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SmsExtra/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SmsExtra/oat/arm64/SmsExtra.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SmsExtra/oat/arm64/SmsExtra.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/SmsExtra/SmsExtra.apk
 # owner: root
 # group: root
@@ -58421,34 +54200,6 @@ group::r-x
 other::r-x
 
 # file: system/app/workloadclassifier/workloadclassifier.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/workloadclassifier/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/workloadclassifier/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/workloadclassifier/oat/arm64/workloadclassifier.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/workloadclassifier/oat/arm64/workloadclassifier.vdex
 # owner: root
 # group: root
 user::rw-
@@ -58476,34 +54227,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/PacProcessor/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PacProcessor/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PacProcessor/oat/arm64/PacProcessor.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/PacProcessor/oat/arm64/PacProcessor.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/PacProcessor/PacProcessor.apk
 # owner: root
 # group: root
@@ -58517,34 +54240,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/SecureElement/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SecureElement/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SecureElement/oat/arm64/SecureElement.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SecureElement/oat/arm64/SecureElement.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/SecureElement/SecureElement.apk
 # owner: root
@@ -58560,34 +54255,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/OsuLogin/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/OsuLogin/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/OsuLogin/oat/arm64/OsuLogin.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/OsuLogin/oat/arm64/OsuLogin.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/OsuLogin/OsuLogin.apk
 # owner: root
 # group: root
@@ -58602,34 +54269,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/MiuiBluetooth/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiBluetooth/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiBluetooth/oat/arm64/MiuiBluetooth.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiBluetooth/oat/arm64/MiuiBluetooth.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/MiuiBluetooth/MiuiBluetooth.apk
 # owner: root
 # group: root
@@ -58643,34 +54282,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/MiuiSystemUIPlugin/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiSystemUIPlugin/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiSystemUIPlugin/oat/arm64/MiuiSystemUIPlugin.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiSystemUIPlugin/oat/arm64/MiuiSystemUIPlugin.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/MiuiSystemUIPlugin/MiuiSystemUIPlugin.apk
 # owner: root
@@ -58693,34 +54304,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/GFManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GFManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GFManager/oat/arm64/GFManager.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/GFManager/oat/arm64/GFManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/NotificationCenter
 # owner: root
 # group: root
@@ -58735,68 +54318,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/NotificationCenter/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/NotificationCenter/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/NotificationCenter/oat/arm64/NotificationCenter.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/NotificationCenter/oat/arm64/NotificationCenter.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/Stk
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/Stk/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Stk/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Stk/oat/arm64/Stk.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Stk/oat/arm64/Stk.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/Stk/Stk.apk
 # owner: root
@@ -58825,34 +54352,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/BookmarkProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BookmarkProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BookmarkProvider/oat/arm64/BookmarkProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/BookmarkProvider/oat/arm64/BookmarkProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/BookmarkProvider/BookmarkProvider.apk
 # owner: root
@@ -58896,34 +54395,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/MiPlayClient/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiPlayClient/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiPlayClient/oat/arm64/MiPlayClient.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiPlayClient/oat/arm64/MiPlayClient.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/MiPlayClient/MiPlayClient.apk
 # owner: root
 # group: root
@@ -58937,34 +54408,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/BluetoothMidiService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BluetoothMidiService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BluetoothMidiService/oat/arm64/BluetoothMidiService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/BluetoothMidiService/oat/arm64/BluetoothMidiService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/BluetoothMidiService/BluetoothMidiService.apk
 # owner: root
@@ -59008,34 +54451,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/BuiltInPrintService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BuiltInPrintService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/BuiltInPrintService/oat/arm64/BuiltInPrintService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/BuiltInPrintService/oat/arm64/BuiltInPrintService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/BuiltInPrintService/BuiltInPrintService.apk
 # owner: root
 # group: root
@@ -59049,34 +54464,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/MiSound/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiSound/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiSound/oat/arm64/MiSound.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiSound/oat/arm64/MiSound.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/MiSound/MiSound.apk
 # owner: root
@@ -59092,34 +54479,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/Traceur/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Traceur/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Traceur/oat/arm64/Traceur.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Traceur/oat/arm64/Traceur.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/Traceur/Traceur.apk
 # owner: root
 # group: root
@@ -59133,34 +54492,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/miuisystem/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/miuisystem/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/miuisystem/oat/arm64/miuisystem.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/miuisystem/oat/arm64/miuisystem.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/miuisystem/miuisystem.apk
 # owner: root
@@ -59176,34 +54507,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/VsimCore/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/VsimCore/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/VsimCore/oat/arm64/VsimCore.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/VsimCore/oat/arm64/VsimCore.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/VsimCore/VsimCore.apk
 # owner: root
 # group: root
@@ -59217,34 +54520,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/WallpaperBackup/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WallpaperBackup/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WallpaperBackup/oat/arm64/WallpaperBackup.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/WallpaperBackup/oat/arm64/WallpaperBackup.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/WallpaperBackup/WallpaperBackup.apk
 # owner: root
@@ -59260,34 +54535,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/PrintRecommendationService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PrintRecommendationService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PrintRecommendationService/oat/arm64/PrintRecommendationService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/PrintRecommendationService/oat/arm64/PrintRecommendationService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/PrintRecommendationService/PrintRecommendationService.apk
 # owner: root
 # group: root
@@ -59301,34 +54548,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/Updater/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Updater/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Updater/oat/arm64/Updater.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Updater/oat/arm64/Updater.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/Updater/Updater.apk
 # owner: root
@@ -59351,68 +54570,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/WAPPushManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WAPPushManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WAPPushManager/oat/arm64/WAPPushManager.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/WAPPushManager/oat/arm64/WAPPushManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/XiaomiServiceFramework
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/XiaomiServiceFramework/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XiaomiServiceFramework/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XiaomiServiceFramework/oat/arm64/XiaomiServiceFramework.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/XiaomiServiceFramework/oat/arm64/XiaomiServiceFramework.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/XiaomiServiceFramework/XiaomiServiceFramework.apk
 # owner: root
@@ -59429,34 +54592,6 @@ group::r-x
 other::r-x
 
 # file: system/app/MiuiVpnSdkManager/MiuiVpnSdkManager.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiVpnSdkManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiVpnSdkManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiVpnSdkManager/oat/arm64/MiuiVpnSdkManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiVpnSdkManager/oat/arm64/MiuiVpnSdkManager.vdex
 # owner: root
 # group: root
 user::rw-
@@ -59484,34 +54619,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/NextPay/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/NextPay/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/NextPay/oat/arm64/NextPay.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/NextPay/oat/arm64/NextPay.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/NextPay/NextPay.apk
 # owner: root
 # group: root
@@ -59533,68 +54640,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/TranslationService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/TranslationService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/TranslationService/oat/arm64/TranslationService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/TranslationService/oat/arm64/TranslationService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/ThemeManager
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/ThemeManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ThemeManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ThemeManager/oat/arm64/ThemeManager.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/ThemeManager/oat/arm64/ThemeManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/ThemeManager/ThemeManager.apk
 # owner: root
@@ -59609,34 +54660,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/MiuiDaemon/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiDaemon/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiDaemon/oat/arm64/MiuiDaemon.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiDaemon/oat/arm64/MiuiDaemon.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/MiuiDaemon/MiuiDaemon.apk
 # owner: root
@@ -59673,34 +54696,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/PlatformCaptivePortalLogin/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PlatformCaptivePortalLogin/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PlatformCaptivePortalLogin/oat/arm64/PlatformCaptivePortalLogin.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/PlatformCaptivePortalLogin/oat/arm64/PlatformCaptivePortalLogin.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/TSMClient
 # owner: root
 # group: root
@@ -59729,68 +54724,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/TSMClient/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/TSMClient/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/TSMClient/oat/arm64/TSMClient.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/TSMClient/oat/arm64/TSMClient.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/FidoClient
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/FidoClient/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FidoClient/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FidoClient/oat/arm64/FidoClient.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/FidoClient/oat/arm64/FidoClient.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/FidoClient/FidoClient.apk
 # owner: root
@@ -59806,34 +54745,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/CompanionDeviceManager/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CompanionDeviceManager/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CompanionDeviceManager/oat/arm64/CompanionDeviceManager.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/CompanionDeviceManager/oat/arm64/CompanionDeviceManager.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/CompanionDeviceManager/CompanionDeviceManager.apk
 # owner: root
 # group: root
@@ -59847,34 +54758,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/UPTsmService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/UPTsmService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/UPTsmService/oat/arm64/UPTsmService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/UPTsmService/oat/arm64/UPTsmService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/UPTsmService/UPTsmService.apk
 # owner: root
@@ -59932,68 +54815,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/FidoAuthen/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FidoAuthen/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FidoAuthen/oat/arm64/FidoAuthen.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/FidoAuthen/oat/arm64/FidoAuthen.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/HTMLViewer
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/HTMLViewer/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/HTMLViewer/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/HTMLViewer/oat/arm64/HTMLViewer.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/HTMLViewer/oat/arm64/HTMLViewer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/HTMLViewer/HTMLViewer.apk
 # owner: root
@@ -60016,68 +54843,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/CertInstaller/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CertInstaller/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CertInstaller/oat/arm64/CertInstaller.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/CertInstaller/oat/arm64/CertInstaller.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/TouchAssistant
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/TouchAssistant/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/TouchAssistant/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/TouchAssistant/oat/arm64/TouchAssistant.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/TouchAssistant/oat/arm64/TouchAssistant.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/TouchAssistant/TouchAssistant.apk
 # owner: root
@@ -60093,34 +54864,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/PowerChecker/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PowerChecker/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PowerChecker/oat/arm64/PowerChecker.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/PowerChecker/oat/arm64/PowerChecker.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/PowerChecker/PowerChecker.apk
 # owner: root
 # group: root
@@ -60135,34 +54878,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/mid_test/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/mid_test/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/mid_test/oat/arm64/mid_test.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/mid_test/oat/arm64/mid_test.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/mid_test/mid_test.apk
 # owner: root
 # group: root
@@ -60176,34 +54891,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/MSA/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MSA/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MSA/oat/arm64/MSA.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MSA/oat/arm64/MSA.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/MSA/MSA.apk
 # owner: root
@@ -60233,34 +54920,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/PrintSpooler/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PrintSpooler/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PrintSpooler/oat/arm64/PrintSpooler.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/PrintSpooler/oat/arm64/PrintSpooler.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/PrintSpooler/PrintSpooler.apk
 # owner: root
 # group: root
@@ -60274,34 +54933,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/mi_connect_service/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/mi_connect_service/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/mi_connect_service/oat/arm64/mi_connect_service.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/mi_connect_service/oat/arm64/mi_connect_service.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/mi_connect_service/mi_connect_service.apk
 # owner: root
@@ -60317,34 +54948,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/XiaomiAccount/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XiaomiAccount/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XiaomiAccount/oat/arm64/XiaomiAccount.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/XiaomiAccount/oat/arm64/XiaomiAccount.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/XiaomiAccount/XiaomiAccount.apk
 # owner: root
 # group: root
@@ -60358,34 +54961,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/MiCloudSync/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiCloudSync/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiCloudSync/oat/arm64/MiCloudSync.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiCloudSync/oat/arm64/MiCloudSync.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/MiCloudSync/MiCloudSync.apk
 # owner: root
@@ -60415,34 +54990,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/AnalyticsCore/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AnalyticsCore/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AnalyticsCore/oat/arm64/AnalyticsCore.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/AnalyticsCore/oat/arm64/AnalyticsCore.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/AnalyticsCore/AnalyticsCore.apk
 # owner: root
 # group: root
@@ -60456,34 +55003,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/WMService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WMService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WMService/oat/arm64/WMService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/WMService/oat/arm64/WMService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/WMService/WMService.apk
 # owner: root
@@ -60499,34 +55018,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/MiWallpaper/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiWallpaper/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiWallpaper/oat/arm64/MiWallpaper.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiWallpaper/oat/arm64/MiWallpaper.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/MiWallpaper/MiWallpaper.apk
 # owner: root
 # group: root
@@ -60540,34 +55031,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/SimAppDialog/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SimAppDialog/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SimAppDialog/oat/arm64/SimAppDialog.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SimAppDialog/oat/arm64/SimAppDialog.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/SimAppDialog/SimAppDialog.apk
 # owner: root
@@ -60598,34 +55061,6 @@ group::r-x
 other::r-x
 
 # file: system/app/Bluetooth/Bluetooth.apk
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Bluetooth/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Bluetooth/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Bluetooth/oat/arm64/Bluetooth.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Bluetooth/oat/arm64/Bluetooth.vdex
 # owner: root
 # group: root
 user::rw-
@@ -60730,34 +55165,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/mab/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/mab/oat/arm
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/mab/oat/arm/mab.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/mab/oat/arm/mab.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/mab/mab.apk
 # owner: root
 # group: root
@@ -60771,34 +55178,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/AutoRegistration/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AutoRegistration/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AutoRegistration/oat/arm64/AutoRegistration.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/AutoRegistration/oat/arm64/AutoRegistration.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/AutoRegistration/AutoRegistration.apk
 # owner: root
@@ -60828,34 +55207,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/AiAsstVision/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AiAsstVision/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AiAsstVision/oat/arm64/AiAsstVision.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/AiAsstVision/oat/arm64/AiAsstVision.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/AiAsstVision/AiAsstVision.apk
 # owner: root
 # group: root
@@ -60884,34 +55235,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/PowerKeeper/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PowerKeeper/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/PowerKeeper/oat/arm64/PowerKeeper.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/PowerKeeper/oat/arm64/PowerKeeper.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/PowerKeeper/PowerKeeper.apk
 # owner: root
 # group: root
@@ -60925,34 +55248,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/GuardProvider/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GuardProvider/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/GuardProvider/oat/arm64/GuardProvider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/GuardProvider/oat/arm64/GuardProvider.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/GuardProvider/GuardProvider.apk
 # owner: root
@@ -60982,34 +55277,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/YouDaoEngine/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/YouDaoEngine/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/YouDaoEngine/oat/arm64/YouDaoEngine.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/YouDaoEngine/oat/arm64/YouDaoEngine.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/YouDaoEngine/YouDaoEngine.apk
 # owner: root
 # group: root
@@ -61023,34 +55290,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/FrequentPhrase/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FrequentPhrase/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FrequentPhrase/oat/arm64/FrequentPhrase.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/FrequentPhrase/oat/arm64/FrequentPhrase.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/FrequentPhrase/FrequentPhrase.apk
 # owner: root
@@ -61066,34 +55305,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/WapiCertManage/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WapiCertManage/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/WapiCertManage/oat/arm64/WapiCertManage.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/WapiCertManage/oat/arm64/WapiCertManage.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/WapiCertManage/WapiCertManage.apk
 # owner: root
 # group: root
@@ -61108,34 +55319,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/KSICibaEngine/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/KSICibaEngine/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/KSICibaEngine/oat/arm64/KSICibaEngine.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/KSICibaEngine/oat/arm64/KSICibaEngine.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/KSICibaEngine/KSICibaEngine.apk
 # owner: root
 # group: root
@@ -61149,34 +55332,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/HybridAccessory/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/HybridAccessory/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/HybridAccessory/oat/arm64/HybridAccessory.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/HybridAccessory/oat/arm64/HybridAccessory.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/HybridAccessory/HybridAccessory.apk
 # owner: root
@@ -61206,34 +55361,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/FM/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FM/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FM/oat/arm64/FM.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/FM/oat/arm64/FM.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/FM/FM.apk
 # owner: root
 # group: root
@@ -61247,34 +55374,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/ModemLog/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ModemLog/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ModemLog/oat/arm64/ModemLog.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/ModemLog/oat/arm64/ModemLog.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/ModemLog/ModemLog.apk
 # owner: root
@@ -61290,34 +55389,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/AntHalService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AntHalService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AntHalService/oat/arm64/AntHalService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/AntHalService/oat/arm64/AntHalService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/AntHalService/AntHalService.apk
 # owner: root
 # group: root
@@ -61332,34 +55403,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/cit/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/cit/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/cit/oat/arm64/cit.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/cit/oat/arm64/cit.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/cit/cit.apk
 # owner: root
 # group: root
@@ -61373,34 +55416,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/FileExplorer/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FileExplorer/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/FileExplorer/oat/arm64/FileExplorer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/FileExplorer/oat/arm64/FileExplorer.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/FileExplorer/FileExplorer.apk
 # owner: root
@@ -61445,13 +55460,6 @@ group::r-x
 other::r-x
 
 # file: system/app/VoiceAssist/lib/arm/libxm_bluetooth.so
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/VoiceAssist/lib/arm/libwakeup-engine-1.1.0.so
 # owner: root
 # group: root
 user::rw-
@@ -61556,6 +55564,13 @@ user::rw-
 group::r--
 other::r--
 
+# file: system/app/VoiceAssist/lib/arm/libwakeup-engine-1.1.3.so
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
 # file: system/app/VoiceAssist/lib/arm/libfb.so
 # owner: root
 # group: root
@@ -61647,34 +55662,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/ThemeModule/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ThemeModule/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/ThemeModule/oat/arm64/ThemeModule.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/ThemeModule/oat/arm64/ThemeModule.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/ThemeModule/ThemeModule.apk
 # owner: root
 # group: root
@@ -61696,34 +55683,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/MiuiAudioMonitor/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiAudioMonitor/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/MiuiAudioMonitor/oat/arm64/MiuiAudioMonitor.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/MiuiAudioMonitor/oat/arm64/MiuiAudioMonitor.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/Mipay
 # owner: root
 # group: root
@@ -61738,68 +55697,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/Mipay/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Mipay/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/Mipay/oat/arm64/Mipay.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/Mipay/oat/arm64/Mipay.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/LiveWallpapersPicker
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/LiveWallpapersPicker/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/LiveWallpapersPicker/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/LiveWallpapersPicker/oat/arm64/LiveWallpapersPicker.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/LiveWallpapersPicker/oat/arm64/LiveWallpapersPicker.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/LiveWallpapersPicker/LiveWallpapersPicker.apk
 # owner: root
@@ -61815,34 +55718,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/SecurityInputMethod/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SecurityInputMethod/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/SecurityInputMethod/oat/arm64/SecurityInputMethod.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/SecurityInputMethod/oat/arm64/SecurityInputMethod.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/SecurityInputMethod/SecurityInputMethod.apk
 # owner: root
 # group: root
@@ -61857,34 +55732,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/app/KeyChain/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/KeyChain/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/KeyChain/oat/arm64/KeyChain.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/KeyChain/oat/arm64/KeyChain.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/KeyChain/KeyChain.apk
 # owner: root
 # group: root
@@ -61898,34 +55745,6 @@ other::r--
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/CloudService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CloudService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/CloudService/oat/arm64/CloudService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/CloudService/oat/arm64/CloudService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/CloudService/CloudService.apk
 # owner: root
@@ -61962,68 +55781,12 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/app/XiaomiSimActivateService/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XiaomiSimActivateService/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/XiaomiSimActivateService/oat/arm64/XiaomiSimActivateService.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/XiaomiSimActivateService/oat/arm64/XiaomiSimActivateService.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/app/AutoTest
 # owner: root
 # group: root
 user::rwx
 group::r-x
 other::r-x
-
-# file: system/app/AutoTest/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AutoTest/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/app/AutoTest/oat/arm64/AutoTest.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/app/AutoTest/oat/arm64/AutoTest.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
 
 # file: system/app/AutoTest/AutoTest.apk
 # owner: root
@@ -64118,34 +57881,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/data-app/MiDrive/oat
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/data-app/MiDrive/oat/arm64
-# owner: root
-# group: root
-user::rwx
-group::r-x
-other::r-x
-
-# file: system/data-app/MiDrive/oat/arm64/MiDrive.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/data-app/MiDrive/oat/arm64/MiDrive.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/data-app/MiDrive/MiDrive.apk
 # owner: root
 # group: root
@@ -64412,217 +58147,7 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/framework/oat/arm64/uiautomator.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/camerax-vendor-extensions.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miuistatssdkshared.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/VendorPropExt.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/zxing.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/bu.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/hid.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/bu.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.test.mock.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/bmgr.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.hidl.manager-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/svc.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/picasso.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.qti.location.sdk.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android-support-v13.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/activation.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/content.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/version-seperation.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.vsimapp-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/javax.obex.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.android.media.remotedisplay.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/volley.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/am.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miuistatssdkshared.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/security-device-credential-sdk.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/monkey.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm64/services.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/dpm.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.qti.location.sdk.art
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/media.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/hid.vdex
 # owner: root
 # group: root
 user::rw-
@@ -64636,154 +58161,7 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/framework/oat/arm64/android.test.runner.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.test.runner.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm64/wifi-service.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.qualcomm.qti.camera.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/input.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/qtiNetworkLib.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/protobuf.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miui-okhttp.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vr.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/javax.obex.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android-support-v7-recyclerview.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/org.apache.http.legacy.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/eventbus.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/MiuiBooster.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/am.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.hardware.light-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miuistatssdksharedv3.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miui-okhttp.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/gson.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/uiautomator.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.android.future.usb.accessory.odex
 # owner: root
 # group: root
 user::rw-
@@ -64797,48 +58175,6 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/locksettings.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/requestsync.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/svc.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/input.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm64/com.android.location.provider.odex
 # owner: root
 # group: root
@@ -64846,119 +58182,7 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/framework/oat/arm64/com.qti.location.sdk.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miuipushsdkshared.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.android.media.remotedisplay.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/wapicertstore.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miuipushsdkshared.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/activation.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/locksettings.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/appwidget.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.hardware.light-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/security-device-credential-sdk.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm64/ethernet-service.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/requestsync.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/monkey.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/wapicertstore.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/bmgr.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.android.mediadrm.signer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.android.mediadrm.signer.vdex
 # owner: root
 # group: root
 user::rw-
@@ -64979,343 +58203,7 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/framework/oat/arm64/sm.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/media.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.vsimapp-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/org.apache.http.legacy.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/sm.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.hidl.base-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/volley.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.misys.V3_0.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android-support-v13.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/protobuf.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/camerax-vendor-extensions.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/wigig-service.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm64/ethernet-service.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.qti.snapdragon.sdk.display.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vr.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/microlog4android.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/miuistatssdksharedv3.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/VendorPropExt.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.qualcomm.qti.camera.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/microlog4android.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/MiuiBooster.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.hidl.manager-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/dpm.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/cloud-common-runtime.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/picasso.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vcard.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.test.mock.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vcard.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/telecom.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/version-seperation.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android.hidl.base-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/android-support-v7-recyclerview.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/cloud-common-runtime.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/appwidget.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.android.future.usb.accessory.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/eventbus.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.misys.V3_0.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/wigig-service.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/telecom.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/gson.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/zxing.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/content.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/qtiNetworkLib.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/com.qti.snapdragon.sdk.display.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V1.0-java.odex
 # owner: root
 # group: root
 user::rw-
@@ -65329,405 +58217,6 @@ user::rwx
 group::r-x
 other::r-x
 
-# file: system/framework/oat/arm/uiautomator.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/camerax-vendor-extensions.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miuistatssdkshared.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/VendorPropExt.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/zxing.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/bu.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/hid.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/bu.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.test.mock.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/bmgr.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.hidl.manager-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/svc.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/picasso.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.qti.location.sdk.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android-support-v13.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/activation.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/content.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/version-seperation.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.vsimapp-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/javax.obex.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.android.media.remotedisplay.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/volley.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/am.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miuistatssdkshared.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/security-device-credential-sdk.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/monkey.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/dpm.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.qti.location.sdk.art
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/media.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/hid.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.test.runner.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.test.runner.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.qualcomm.qti.camera.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/input.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/qtiNetworkLib.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/protobuf.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miui-okhttp.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vr.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/javax.obex.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android-support-v7-recyclerview.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/org.apache.http.legacy.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/eventbus.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.1-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/MiuiBooster.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/am.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.hardware.light-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miuistatssdksharedv3.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miui-okhttp.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/gson.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/uiautomator.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.android.future.usb.accessory.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/locksettings.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/requestsync.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/svc.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/input.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm/com.android.location.provider.odex
 # owner: root
 # group: root
@@ -65735,455 +58224,7 @@ user::rw-
 group::r--
 other::r--
 
-# file: system/framework/oat/arm/com.qti.location.sdk.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miuipushsdkshared.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.android.media.remotedisplay.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/wapicertstore.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miuipushsdkshared.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/activation.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/locksettings.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/appwidget.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.hardware.light-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/security-device-credential-sdk.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/requestsync.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/monkey.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/wapicertstore.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/bmgr.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.android.mediadrm.signer.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.android.mediadrm.signer.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
 # file: system/framework/oat/arm/com.android.location.provider.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/sm.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/media.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.vsimapp-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/org.apache.http.legacy.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/sm.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.hidl.base-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/volley.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.misys.V3_0.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android-support-v13.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.misys-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/protobuf.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/camerax-vendor-extensions.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/wigig-service.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.qti.snapdragon.sdk.display.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vr.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/microlog4android.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/miuistatssdksharedv3.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/VendorPropExt.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.qualcomm.qti.camera.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/microlog4android.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/MiuiBooster.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.hidl.manager-V1.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/dpm.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/cloud-common-runtime.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/picasso.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.misys-V2.0-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vcard.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.misys-V2.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.test.mock.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vcard.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/telecom.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/version-seperation.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android.hidl.base-V1.0-java.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/android-support-v7-recyclerview.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/cloud-common-runtime.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/appwidget.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.android.future.usb.accessory.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/eventbus.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.misys.V3_0.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/wigig-service.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.1-java.vdex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/telecom.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/gson.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/zxing.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/content.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/qtiNetworkLib.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/com.qti.snapdragon.sdk.display.odex
-# owner: root
-# group: root
-user::rw-
-group::r--
-other::r--
-
-# file: system/framework/oat/arm/vendor.xiaomi.hardware.misys-V1.0-java.odex
 # owner: root
 # group: root
 user::rw-

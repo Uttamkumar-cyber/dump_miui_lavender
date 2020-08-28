@@ -272,3 +272,6 @@ greezer                u:object_r:greeze_service:s0
 ktuca                  u:object_r:ktuca_service:s0
 MiuiConnectivityDiagnostics u:object_r:diagnostics_service:s0
 periodic               u:object_r:periodic_service:s0
+miui.mirror_service    u:object_r:miui_mirror_service:s0
+miui.mirror_app_service    u:object_r:miui_mirror_app_service:s0
+miui.restore.service   u:object_r:miui_restore_service:s0

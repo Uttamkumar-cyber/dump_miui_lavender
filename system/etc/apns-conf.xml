@@ -890,22 +890,10 @@
         mnc="01"
         apn="orange"
         password="orange"
-        type="default,supl,mms"
+        type="default,supl,mms,dun"
         user="orange"
-        proxy="192.168.10.200"
         port="8080"
         mmsc="http://mms.orange.fr"
-        protocol="IP"
-        roaming_protocol="IP"
-    />
-
-    <apn carrier="Orange Internet"
-        mcc="208"
-        mnc="01"
-        apn="orange.fr"
-        password="orange"
-        type="dun"
-        user="orange"
         protocol="IP"
         roaming_protocol="IP"
     />
@@ -2126,7 +2114,7 @@
         mmsport="8080"
         mmsproxy="10.138.255.5"
         password="telefonica"
-        type="default,supl,mms,dun"
+        type="default,mms"
         user="telefonica"
         authtype="1"
         protocol="IPV4V6"
@@ -2392,7 +2380,7 @@
         mmsport="8080"
         mmsproxy="10.138.255.5"
         password="telefonica"
-        type="default,supl,mms,dun"
+        type="default,mms"
         user="telefonica"
         authtype="1"
         protocol="IPV4V6"
@@ -8213,7 +8201,7 @@
         roaming_protocol="IP"
     />
 
-    <apn carrier="MMS Orange"
+    <apn carrier="Orange MMS"
         mcc="260"
         mnc="03"
         apn="mms"
@@ -8358,7 +8346,7 @@
     <apn carrier="Telekom Internet"
         mcc="262"
         mnc="01"
-        apn="internet.telekom"
+        apn="internet.v6.telekom"
         authtype="1"
         password="telekom"
         type="default,supl"
@@ -8385,7 +8373,7 @@
     <apn carrier="congstar Internet"
         mcc="262"
         mnc="01"
-        apn="internet.telekom"
+        apn="internet.v6.telekom"
         authtype="1"
         password="cs"
         type="default,supl"
@@ -33211,7 +33199,15 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
-
+    <apn carrier="sos"
+        mcc="440"
+        mnc="10"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
     <apn carrier="rakuten.jp"
         mcc="440"
         mnc="11"
@@ -33228,6 +33224,16 @@
         type="ims"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
+    />
+
+    <apn carrier="sos"
+        mcc="440"
+        mnc="11"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
     />
 
     <apn carrier="SoftBank 4G"
@@ -33273,6 +33279,16 @@
         type="ims"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
+    />
+
+   <apn carrier="sos"
+        mcc="440"
+        mnc="20"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
     />
 
     <apn carrier="SoftBank 3G"
@@ -33330,6 +33346,16 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="sos"
+        mcc="440"
+        mnc="50"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
+
     <apn carrier="LTE NET for Internet"
         mcc="440"
         mnc="51"
@@ -33371,6 +33397,16 @@
         roaming_protocol="IPV4V6"
     />
 
+    <apn carrier="sos"
+        mcc="440"
+        mnc="51"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
+
     <apn carrier="LTE NET"
         mcc="440"
         mnc="52"
@@ -33427,6 +33463,16 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         bearer_bitmask="14|18"
+    />
+
+    <apn carrier="sos"
+        mcc="440"
+        mnc="52"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
     />
 
     <apn carrier="LTE NET"
@@ -33487,6 +33533,16 @@
         bearer_bitmask="14|18"
     />
 
+    <apn carrier="sos"
+        mcc="440"
+        mnc="53"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
+
     <apn carrier="LTE NET"
         mcc="440"
         mnc="54"
@@ -33544,6 +33600,15 @@
         roaming_protocol="IPV4V6"
         bearer_bitmask="14|18"
     />
+    <apn carrier="sos"
+        mcc="440"
+        mnc="54"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
 
     <apn carrier="LTE NET"
         mcc="440"
@@ -33602,7 +33667,15 @@
         roaming_protocol="IPV4V6"
         bearer_bitmask="14|18"
     />
-
+    <apn carrier="sos"
+        mcc="440"
+        mnc="55"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
     <apn carrier="LTE NET"
         mcc="440"
         mnc="56"
@@ -33660,7 +33733,15 @@
         roaming_protocol="IPV4V6"
         bearer_bitmask="14|18"
     />
-
+    <apn carrier="sos"
+        mcc="440"
+        mnc="56"
+        apn="sos"
+        type="emergency"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        mtu="1440"
+    />
     <apn carrier="LTE NET"
         mcc="440"
         mnc="70"
